@@ -15,7 +15,7 @@ pip install requirements.txt
 python app.py
 ```
 
-* How to use the program
+### How to use the program
 Importe o arquivo PythonMarathon.postman_collection.json em seu aplicativo Postman. Caso não tenha instalado, segue um tutorial para instalação:
 
 * [Install Postman Tutorial](https://www.youtube.com/watch?v=VP_8qD6GXK0&list=PLox9xfUeaKQ77PsKGGzIBVV5avdrAYFX_)
