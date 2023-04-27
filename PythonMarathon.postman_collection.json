@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "f381ecff-4a60-482d-bcd4-45550306c5db",
+		"name": "PythonMarathon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3949756"
+	},
+	"item": [
+		{
+			"name": "API_Compare_Face",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image1",
+							"type": "file",
+							"src": "/Users/riardosoares/Documents/Projetos/MaratonaPython/api_facerecog/Executive.png"
+						},
+						{
+							"key": "image2",
+							"type": "file",
+							"src": "/Users/riardosoares/Documents/Projetos/MaratonaPython/api_facerecog/tom.png"
+						},
+						{
+							"key": "id",
+							"value": "12345",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4001/face_encoding",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4001",
+					"path": [
+						"face_encoding"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
